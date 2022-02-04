@@ -17,6 +17,7 @@ namespace Giraffe
             //static methods belongs to the class itself. So a lot of times when we create methods inside of our c# class.
             //usually those methods 
             UsefulTools.SayHi("Mike");
+            CookAssistant.SayHi("Amy");
             
 
             //What is inheritance?
@@ -25,9 +26,15 @@ namespace Giraffe
             //i created an object for the chef and told it to make chicken. 
             Chef chef = new Chef();
             chef.MakeSpecialDish();
+            chef.MakeSalad();
+            chef.MakeChicken();
+
 
             ItalianChef italianChef = new ItalianChef();
             italianChef.MakeSpecialDish();
+
+            HmongChef hmongChef = new HmongChef();
+            hmongChef.MakeSpecialDish();
 
             Console.ReadLine();
 
