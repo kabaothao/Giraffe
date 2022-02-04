@@ -18,13 +18,13 @@ namespace Giraffe
         //virtual means this method can be overrideen in any subclasses. so when i say virtual, it basically
         //means that subclasses can change the functionality of this method. so i can just copy this method.
         {
-            Console.WriteLine("The Chef makes chicken parmesan");
+            Console.WriteLine("The Chef makes pho");
         }
 
 
         public void MakePasta()
         {
-            Console.Write("The Chef can make pasta!");
+            Console.Write("The Chef can make eggrolls!");
         }
 
 
