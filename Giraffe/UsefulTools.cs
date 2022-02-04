@@ -15,4 +15,4 @@ namespace Giraffe
     }
 }
 
-//you can create a bunch of these static methods and used to do different things. You can include static methods
+//you can create a bunch of these static methods and used to do different things. You can include static methods in your program.cs f
